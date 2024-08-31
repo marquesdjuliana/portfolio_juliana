@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e0d1;
+    color: #070001;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #79b5ac;
+    color: #070001;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #33605a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c78933;
+}
+
+#content-projects a {
+    color: #33605a;
+    text-decoration: none;
+}
+
+#content-projects a:hover {
+    color: #c78933;
+}
+
+h1, h2 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+footer {
+    background-color: #79b5ac;
+    color: #070001;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #070001;
+    border-radius: 5px;
+    background-color: #79b5ac;
+    color: #070001;
+}
+
+button {
+    background-color: #33605a;
+    color: #e9e0d1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c78933;
+}
+
+p, li {
+    text-align: justify;
+}
+
+/* Estilos específicos para a página de contato */
+#contact-info {
+    text-align: center;
+}
+
+.contact-container {
+    background-color: #e9e0d1;
+    padding: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.contact-container ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-container ul li {
+    margin-bottom: 15px;
+}
+
+.contact-container a {
+    color: #33605a;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-container a:hover {
+    color: #c78933;
+}
+
+/* Estilo para o ícone do WhatsApp */
+.contact-container a i.fab.fa-whatsapp {
+    color: #25D366;
+    margin-right: 10px;
+}
